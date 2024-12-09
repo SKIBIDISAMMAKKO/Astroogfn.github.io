@@ -1,0 +1,144 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #111;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    background: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('grid-pattern.png') center/cover, #000;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .hero-content .btn:hover {
+    background: #a29bfe;
+    transform: scale(1.05);
+  }
+  
+  /* Stats Section */
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    background: #181818;
+    text-align: center;
+  }
+  
+  .stats .stat-box {
+    background: #222;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stats h3 {
+    font-size: 2rem;
+    color: #6c5ce7;
+  }
+  
+  .stats p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  /* Footer */
+  footer {
+    background: #111;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-top: 2px solid #333;
+  }
+  
+  footer p {
+    color: #888;
+    margin-bottom: 1rem;
+  }
+  
+  footer .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  footer .social-links a {
+    text-decoration: none;
+    color: #6c5ce7;
+    font-size: 1.2rem;
+  }
+  
